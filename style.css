@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.side{
+    background-color: hsl(240, 38%, 85%);
+    width: 10vw;
+    height: 65vw;
+    transition: transform 0.3s ease-in;
+}
+.main{
+    background-color: hsl(180, 52%, 94%);
+    width: 80vw;
+    padding: 10px;
+   
+}
+.contain{
+    display: flex;
+}
+.side nav{
+    padding: 45px;
+    font-size: 30px;
+}
+.side nav li{
+padding-top: 33px;
+padding-bottom: 33px;
+margin-top: 40px;
+margin-bottom: 40px;
+list-style: none;
+}
+.info{
+    background-color: rgb(252, 253, 240);
+    height: 45vw;
+    width: 80vw;
+    margin:  144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pic img{
+width: 78vh;
+height: 45vw;
+
+}
+.devinfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+}
+.hallo{
+    font-size: 50px;
+}
+.name{
+    font-size: 35px;
+}
+.about{
+    font-size: 26px;
+}
+.button{
+    margin-top: 36px;
+    
+}
+.button button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: #e6f7f7;
+    background-color: #1459da;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.res{
+    margin: 36px 34px;
+    padding: 23 33px;
+    
+    flex-direction: row;
+    
+}
+.res h2,h2,h2,h2,h2{
+    margin: 20px px;
+}
+.res p,p,p,p,p,p{
+    margin: 20px ;
+
+}
+.res fieldset{
+    width: 45vw;
+    text-align: center;
+    border-radius: 5%;
+    background-color: hsl(180, 43%, 49%);
+    
+    
+}
+@media(max-width:1615px){
+   
+}
+/* .side{
+    transform: translate(-443px, 0px);
+    position: absolute;
+} */
+.hambug{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.crass{
+    margin-left: 95px;
+}
+.sideGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.side{
+    transition: transform 0.3s ease-in;
+}
